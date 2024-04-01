@@ -106,13 +106,13 @@ footer li, a{
     margin: 10px;
     color: white;
 }
-footer .inform{ /*Links*/
+footer .inform{
     display: flex;
     margin: 10px;
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px;
 }
-footer .info{/*Informações complementares*/
+footer .info{
     margin-left: 10px;
 }
