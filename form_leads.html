@@ -1,18 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="O TeleporteX é o primeiro dispositivo de teletransporte pessoal do mundo. Basta escolher seu destino e ser instantaneamente transportado para qualquer lugar do mundo, sem tempo de espera.">
+    <meta name="description"
+        content="O TeleporteX é o primeiro dispositivo de teletransporte pessoal do mundo. Basta escolher seu destino e ser instantaneamente transportado para qualquer lugar do mundo, sem tempo de espera.">
     <meta name="keyword" content="Tecnologia, TeleporteX, teletransporte, revolução, Portal">
-    <link rel="icon" type="image/jpeg" href="imgs/logo.jpeg">
+    <link rel="icon" type="image/png" href="imgs/logo1.png">
+    <link rel="stylesheet" href="style/form.css">
     <title>TeleporteX: Formulário</title>
 </head>
-<body>
-    <p>Página para captura de Leads</p>
 
-    <video width="100%" height="100%" controls loop>
-        <source src="../../Anotações/MidiaTeste/video.mp4" type="video/mp4">
-    </video>
+<body>
+    <div id="top">
+        <a href="index.html" title="Página Principal"><img src="imgs/logo1.png" alt="Logo Aperture Science" height="100px"></a>
+    </div>
+    
+    <main>
+        <form>
+            <label for="fname">Nome:</label> <br>
+            <input type="text" id="fname" name="fname" size="30" required> <br>
+
+            <label for="lname">Sobrenome:</label> <br>
+            <input type="text" id="lname" name="lname" size="30" required> <br>
+
+            <label for="mail">E-mail:</label> <br>
+            <input type="email" id="mail" name="mail" size="30" required> <br>
+
+            <label for="num">Número:</label> <br>
+            <input type="tel" id="num" name="num" minlength="11" maxlength="11" size="22" required> <br>
+
+            <label for="term">Concordo com os termos:</label>
+            <input type="checkbox" id="term" name="term" required> <br>
+            
+            <input class="enviar" type="submit" value="Amostra Grátis">
+        </form>
+    </main>
 </body>
 </html>
